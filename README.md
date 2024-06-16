@@ -120,3 +120,16 @@ curl --location 'http://localhost:5000/mylist/list?page=2&limit=3&userId=user9'
 Additional Notes
 Ensure the server is running before testing with Postman or curl.
 If you encounter any issues, feel free to comment or email me at shwetabhgupta2002@gmail.com.
+
+***My observation and code explanation***
+
+I have structured it to be as clear separation between controller , service and model layers which will ensure maintainability and scalability of the feature.
+
+I have used try-catch block properly to handle errors to prevent crashes and ensure consistent operation.
+
+I have used mongodb operations and its queries ,for ex- $addToSet, $pull, $slice, $ne, for faster and better performance.
+
+I have used jest testing framework for unit testing which will ensure the API endpoints function correctly under different conditions.
+
+***conclusion:***
+I have implemented the functionality in the best of my knowledge to ensure my solution is scalable and performant. 
