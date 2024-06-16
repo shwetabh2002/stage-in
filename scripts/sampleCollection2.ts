@@ -17,15 +17,15 @@ mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017')
                 userId: user.id.toString(),
                 items: [
                     {
-                        _id: 'mo1',
+                        _id: 'mo11',
                         contentType: 'Movie',
-                        contentTitle: 'Attack part 1',
+                        contentTitle: 'heaven on earth',
                         addedOn: new Date()
                     },
                     {
-                        _id: 'tv1',
+                        _id: 'tv11',
                         contentType: 'TVShow',
-                        contentTitle: 'Stranger Things',
+                        contentTitle: 'two and half man',
                         addedOn: new Date()
                     }
                 ]
