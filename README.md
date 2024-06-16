@@ -42,19 +42,30 @@ To start the server on your local machine:
 ```bash
 npm run dev
 ```
+
+NOTE: while running the scripts below if you find any error then run the below :
+bash
+Copy code
+```
+npm install -g typescript
+```
+and 
+```
+npm install --save-dev @types/jest @types/node
+```
+
 **Adding Sample Data**
 Stop the server if it's running. Then run the following scripts in the given sequence to add sample data to your MongoDB:
 
 Compile and run the first sample collection script:
-
 bash
 Copy code
 ```
 tsc ./scripts/sampleCollection.ts
 node ./scripts/sampleCollection.js
 ```
-Compile and run the second sample collection script:
 
+Compile and run the second sample collection script:
 bash
 Copy code
 ```
