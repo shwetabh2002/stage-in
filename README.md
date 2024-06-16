@@ -82,6 +82,8 @@ Copy code
 ```
 npm test
 ```
+If all the test cases do not pass please rerun ```npm test``` once again
+
 Testing the API with Postman
 You can test the API endpoints using Postman or curl.
 
