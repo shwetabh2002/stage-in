@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import User from '../src/models/user';
 import Movie from '../src/models/movie';
-import TVShow from '../src/models/tvshow';
+import TVShow from '../src/models/tvShow';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
