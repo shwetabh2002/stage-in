@@ -226,7 +226,7 @@ mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017')
         ])
             .then(() => {
                 console.log('Sample data inserted successfully');
-
+                process.exit(0);
             })
             .catch((error) => {
                 console.error('Error inserting sample data:', error);
