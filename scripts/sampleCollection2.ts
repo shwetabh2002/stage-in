@@ -35,6 +35,7 @@ mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017')
             await Wishlist.insertMany(sampleWishlists);
 
             console.log('Sample wishlists inserted successfully');
+            process.exit(0);
         } catch (error) {
             console.error('Error inserting sample wishlists:', error);
         }
